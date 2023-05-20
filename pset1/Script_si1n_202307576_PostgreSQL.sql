@@ -22,7 +22,7 @@ lc_ctype = 'pt_BR.UTF-8'
 allow_connections = true;
 
 /*conectar o usuario bernardo ao BD uvv*/
-\connect uvv bernardo;
+\connect uvv alan;
 -- digitar senha do usuário alan: 123456
 
 /*criar esquema lojas*/
@@ -30,7 +30,7 @@ create schema lojas authorization alan;
 
 /*tornar lojas o esquema padrão*/
 alter user alan
-set search_path to elmasri, "$user", public;
+set search_path to uvv, "$user", public;
 
 
 /*Criação das tabelas*/
