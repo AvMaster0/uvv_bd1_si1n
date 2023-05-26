@@ -21,7 +21,7 @@ lc_collate = 'pt_BR.UTF-8'
 lc_ctype = 'pt_BR.UTF-8'
 allow_connections = true;
 
-/*conectar o usuario bernardo ao BD uvv*/
+/*conectar o usuario alan ao BD uvv*/
 \connect uvv alan;
 -- digitar senha do usuário alan: 123456
 
