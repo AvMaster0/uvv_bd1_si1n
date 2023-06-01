@@ -19,6 +19,9 @@ lc_collate = 'pt_BR.UTF-8'
 lc_ctype = 'pt_BR.UTF-8'
 allow_connections = true;
 
+/*Garantir os privilégios ao usuário*/
+GRANT ALL PRIVILEGES ON DATABASE uvv TO alan;
+
 /*conectar o usuario alan ao BD uvv*/
 \connect "dbname=uvv user=alan password=123456";
 
